@@ -1,0 +1,41 @@
+%flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+// @function displayFlex($display, $justifyContent,$alignItems, $flexDirection) {
+//     display: $display;
+//  @return display
+// }
+
+.home-header {
+    height: 80vh;
+    background-attachment: fixed;
+    h1, p {
+        color: white;
+        text-transform: uppercase;
+    }
+  
+    .overlay{
+        background-color: rgba(0,0,0,0.2);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+   
+    }
+}
+.main-containner{
+    margin-top: 50px;
+}
+.img-txt {
+    display: flex;
+    .img-box {
+        width: 48%;
+        img{
+            width: 100%;
+        }
+    }
+}
