@@ -2,7 +2,7 @@ import React from 'react';
 import HomeHeader from './HomeHeader';
 import './Home.scss';
 import { Container } from 'reactstrap';
-import frontImg from '../../images/Sredeni od Mete 2/DSCF0183.jpg';
+import frontImg from '../../images/Sredeni od Mete 2/IMG_7481.jpg';
 
 const Home = () => {
   return (
