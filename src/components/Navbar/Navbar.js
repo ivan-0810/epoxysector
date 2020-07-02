@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../../images/logo.jpg'
-import Logo2 from '../../images/Logo2.jpg'
+import Logo2 from '../../images/Logo2.jpg';
+import translate from '../../i18Provider/translate'
 import {
   Collapse,
   Container,
@@ -53,27 +53,27 @@ const NavbarMenu = (props) => {
             <NavItem>
               <NavLink id='a' tag={Link} style={aHrefStyle} to='/'
                 onClick={() => { startChangeVis('a')}} className={acn1}
-               >Home</NavLink>
+               >{translate('home')}</NavLink>
             </NavItem>
             <NavItem>
               < NavLink id='b' tag={Link}  style={aHrefStyle} to="/our-tables" 
                 onClick={() => { startChangeVis('b')}} className={acn2}
-              >Our Tables</NavLink>
+              >{translate('ourTables')}</NavLink>
             </NavItem>
             <NavItem>
               <NavLink id='c' tag={Link} style={aHrefStyle} to="/colours"
                 onClick={() => { startChangeVis('c')}} className={acn3}
-                >Colours</NavLink>
+  >{translate('colours')}</NavLink>
             </NavItem>
             <NavItem>
               <NavLink tag={Link} style={aHrefStyle} to='/gallery'
               onClick={() => { startChangeVis('d')}} className={acn4}
-               >Gallery</NavLink>
+  >{translate('gallery')}</NavLink>
             </NavItem>
             <NavItem>
               <NavLink tag={Link} style={aHrefStyle} to='/contact-us' 
               onClick={() => { startChangeVis('e')}} className={acn5}
-              >Contact Us</NavLink>
+  >{translate('contactUs')}</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
