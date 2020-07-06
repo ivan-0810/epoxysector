@@ -6,32 +6,48 @@ const GalleryCarousel = ({ makeArr, inx }) => {
   const [index, setIndex] = useState(inx);
   const { setIsCarousel } = useContext(Context);
 
+  const incrementPic = () => {
+    if(index === 28){
+      setIndex(28)
+    }
+    else {setIndex(index + 1)}
+  }
+  const decrementPic = () => {
+    if(index === 1){
+      setIndex(1)
+    }
+    else {setIndex(index - 1)}
+  }
+
   return (
     <div className="galleryCarousel">
+      
       <div className="overlay"
-        style={{
-          backgroundImage:
-            'url(' + require(`../../images/sliki/${index}.jpg`) + ')',
-          backgroundPosition: 'center top',
-          backgroundSize: 'cover',
-        }}
+        // style={{
+        //   backgroundImage:
+        //     'url(' + require(`../../images/sliki/${index}.jpg`) + ')',
+        //   backgroundPosition: 'center top',
+        //   backgroundSize: 'cover',
+        // }}
       >
         <span className='time' onClick={() => setIsCarousel(false)}>
           <i className="fas fa-times "></i>
         </span>
-        <span onClick={() => setIndex(index - 1)}>
+        <span onClick={decrementPic}>
           <i className="fas fa-arrow-left arrow"></i>
         </span>
         <div
           className="carouselImg"
-          style={{
-            backgroundImage:
-              'url(' + require(`../../images/sliki/${index}.jpg`) + ')',
-            backgroundPosition: 'center top',
-            backgroundSize: 'cover',
-          }}
-        ></div>
-        <span onClick={() => setIndex(index + 1)}>
+          // style={{
+          //   backgroundImage:
+          //     'url(' + require(`../../images/sliki/${index}.jpg`) + ')',
+          //   backgroundPosition: 'center',
+          //   backgroundSize: 'cover',
+          // }}
+        >
+          <img src={require(`../../images/sliki/${index}.jpg`)} alt=""/>
+        </div>
+        <span onClick={incrementPic}>
           <i className="fas fa-arrow-right arrow"></i>
         </span>
       </div>

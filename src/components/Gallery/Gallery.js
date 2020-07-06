@@ -10,7 +10,7 @@ const Gallery = () => {
   const [ inx,setInx ] = useState(0)
   //render the photos
   const makeArr = [];
-  for (let i = 1; i < 22; i++) {
+  for (let i = 1; i < 28; i++) {
     makeArr.push(i);
   }
 

@@ -27,15 +27,17 @@
   z-index: 1;
   .overlay {
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    filter: blur(10px);
+    background-color: rgba(0,0,0,0.9);
     @extend %flex-center;
     position: relative;
   .carouselImg{
     width: 50%;
-    height: 50vh;
+    height: 90vh;
     margin: 0 auto;
-    filter: none;
+    img{
+      width: 100%;
+      height: 100%;
+    }
   }
   .arrow {
     @extend %arrow-style;  
@@ -48,7 +50,7 @@
     top: 100px;
     right: 100px;
     i{
-      font-size: 20px;
+      font-size: 30px;
       cursor: pointer;
     }
   }
