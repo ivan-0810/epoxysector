@@ -1,0 +1,56 @@
+@import '../../Base';
+.galleryCont{
+  .header-gallery{
+    margin: 50px auto 150px auto;
+    width: 70%;
+    text-align: center;
+  }
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    .img-gallery{
+        width: 32%;
+        height: 250px;
+        margin-bottom: 10px;
+        cursor: pointer;
+      
+    }
+}
+//galleryCarousel
+.galleryCarousel{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  .overlay {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    filter: blur(10px);
+    @extend %flex-center;
+    position: relative;
+  .carouselImg{
+    width: 50%;
+    height: 50vh;
+    margin: 0 auto;
+    filter: none;
+  }
+  .arrow {
+    @extend %arrow-style;  
+  }
+  i, .arrow{
+    color: white;
+  }
+  .time{
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    i{
+      font-size: 20px;
+      cursor: pointer;
+    }
+  }
+}
+}

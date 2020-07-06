@@ -1,0 +1,19 @@
+.btn-lang {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+    margin-right: 50px;
+  }
+  .btn-lang button {
+    border: 1px solid gray;
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: transparent;
+  }
+  .btn-lang button:focus{
+    outline: none;
+  }
+  .btn-lang button:first-child {
+    margin-right: 10px;
+  }

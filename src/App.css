@@ -1,28 +1,13 @@
 * {
   font-family: 'Source Sans Pro', sans-serif;
 }
+.App {
+  background-color: #f7f7f7;
+}
 
 .active {
   border-bottom: 2px solid black;
   color: black;
   font-weight: bold;
 }
-.btn-lang {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 30px;
-  margin-right: 50px;
-}
-.btn-lang button {
-  border: 1px solid gray;
-  width:25px;
-  height: 25px;
-  border-radius: 50%;
-  background-color: transparent;
-}
-.btn-lang button:focus{
-  outline: none;
-}
-.btn-lang button:first-child {
-  margin-right: 10px;
-}
+

@@ -4,7 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 import OurTables from './components/OurTables';
 import Colours from './components/Colours';
-import Gallery from './components/Gallery';
+import Gallery from './components/Gallery/Gallery';
 import ContactUs from './components/ContactUs';
 import { I18nPropvider } from './i18Provider';
 import { Context } from './Context/Context';

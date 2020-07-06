@@ -1,0 +1,23 @@
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    p{
+        font-size: 12px;
+    }
+    .f-box{
+        text-align: center;
+        width: 33%;
+     
+      
+        span i {
+            font-size: 20px;
+            cursor: pointer;
+        }
+    }
+    .f-icnos {
+        display: flex;justify-content: center;
+    }
+
+      
+   
+}
