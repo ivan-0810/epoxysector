@@ -27,29 +27,35 @@
   z-index: 1;
   .overlay {
     height: 100%;
-    background-color: rgba(0,0,0,0.9);
+    background-color: rgba(211, 211, 211,0.9);
     @extend %flex-center;
     position: relative;
   .carouselImg{
     width: 50%;
-    height: 90vh;
     margin: 0 auto;
-    img{
-      width: 100%;
-      height: 100%;
-    }
+    display: flex;
+    justify-content: center;
   }
   .arrow {
     @extend %arrow-style;  
   }
   i, .arrow{
-    color: white;
+    color: black;
+   
+  }
+  i, .time {
+    @extend %flex-center;
+    background-color: white;
   }
   .time{
     position: absolute;
-    top: 100px;
-    right: 100px;
+    top: 40px;
+    right: 40px;
+    border-radius: 50%;
     i{
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
       font-size: 30px;
       cursor: pointer;
     }

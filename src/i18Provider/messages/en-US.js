@@ -17,7 +17,7 @@ import { LOCALES } from  '../constants';
         //Gallery//
         'gallery': 'Gallery',//navbar
         'galleryH1' : 'Gallery',
-        'galleryTxt1' : "There's much to see here. So, take your time, look around, and see lots of examples of our tables from previous customers. Click on 'SHOW MORE' at the bottom of the page to see the full gallery." 
+        'galleryTxt1' : "There's much to see here. So, take your time, look around, and see lots of examples of our tables from previous customers." 
      },
     
  }

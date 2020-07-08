@@ -1,0 +1,297 @@
+.form-div {
+  margin: 0 auto;
+  p{
+    line-height: 25px;
+    color: rgba(0,0,0,0.322);
+  }
+    width: 70%;
+    height: 80vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    background-color: white;
+    border-radius: 8px;
+    -webkit-transition: opacity 0.25s ease-in-out 0.125s, margin-top 1.5s;
+    -o-transition: opacity 0.25s ease-in-out 0.125s, margin-top 1.5s;
+    transition: opacity 0.25s ease-in-out 0.125s, margin-top 1.5s;
+
+    .left-box, .right-box {
+        width: 49%;
+        height: 100%
+    }
+    .left-box div, .right-box div {
+      width: 75%;
+      
+    }
+    .left-box div {
+      margin: 100px auto 0;
+    }
+    .right-box div {
+      margin: 80px auto;
+    }
+    .left-box {
+      border-right: 1px solid lightgray;
+      h1{
+        color: #545454;
+        font-size: 50px;
+        font-weight: bold;
+      }
+      h3{
+        color: #1fbf99;
+      }
+      p{
+        margin-top: 30px;
+        line-height: 30px;
+      }
+    
+    }
+    .right-box div {
+      text-align: center;
+      h3 {
+        color: #545454;
+        font-size: 30px;
+
+      }
+      form{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+      }
+      input{
+        height: 50px!important;
+        border-radius: 6px;
+        border: 1px solid lightgray;
+        outline: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+          appearance: none;
+      }
+      input:not(:last-child){
+        margin-bottom: 30px;
+      }
+      input::placeholder {
+        text-indent: 10px;
+        padding: 0;
+        font-size: 20px;
+        color: lightgray;
+        line-height: normal;
+        overflow: visible;
+      }
+      input::-webkit-input-placeholder {
+        padding: 0;
+        overflow: visible;
+        font-size: 20px!important;
+        color: lightgray;
+      }
+      input::-moz-placeholder {
+        padding: 0;
+        overflow: visible;
+        font-size: 20px!important;
+        color: lightgray;
+      }
+      input::-ms-input-placeholder {
+        padding: 0;
+        overflow: visible;
+        font-size: 20px!important;
+        color: lightgray;
+      }
+      input::-ms-input-placeholder {
+        padding: 0;
+        overflow: visible;
+        font-size: 20px!important;
+        color: lightgray;
+      }
+    
+      input[type=submit]{
+          height: 50px;
+          background-color: #1fbf99;
+          color: white;
+          font-size: 15px;
+          font-weight: bold;
+          cursor: pointer;
+          padding: 0;
+          box-shadow: none;
+      }
+      input:focus{
+        border: 2px solid #1fbf99;
+      }
+      p:last-child{
+        margin: 0;
+      }
+    }
+}
+
+@media(max-width: 735px) {
+  .box{
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding-top: 20px;
+  }
+  .form-div{
+    width: 90%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    margin-bottom: 10px;
+    padding-bottom: 54px;
+
+    .left-box, .right-box {
+      width: 100%;
+      height: -webkit-fit-content;
+      height: -moz-fit-content;
+      height: fit-content;
+      border: none;
+  }
+  .left-box{
+    border-bottom: 1px solid lightgray;
+  }
+  .left-box div{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    padding-bottom: 20px;
+    h1{
+      font-size: 40px;
+      margin-top: 42px;
+    }
+    h3 {
+     font-size: 16px;;
+    }
+    p{
+      font-size: 15px;
+      line-height: 25px;
+    }
+    
+  }
+  .right-box{
+    margin-top: 43px;
+    border-left: none!important;
+  }
+  .right-box div {
+    width: 87%;
+    margin: 0 auto;
+
+    h3{
+      font-size: 23px;
+    }
+    p{
+      font-size: 14px;
+    }
+  }
+  }
+  .footer {
+    margin-top: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    p{ text-align: center;}
+    .social-icons a {
+      width: 25px;
+      height: 25px;
+      i {
+        font-size: 13px;
+      }
+    }
+  }
+}
+@media (max-width: 881px){
+  .box{
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding-top: 50px;
+  }
+  .form-div{
+    width: 90%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin-bottom: 10px;
+    .left-box{
+      border: none;
+    }
+    .right-box{
+      border-left: 1px solid lightgray;
+      div {
+        width: 65%;
+        h3{
+          font-size: 22px;
+        }
+        input{
+          margin-bottom: 20px!important;
+          height: 42px;
+        }
+        input::-webkit-input-placeholder {
+          font-size: 16px;
+        }
+        input::-moz-placeholder {
+          font-size: 16px;
+        }
+        input:-ms-input-placeholder {
+          font-size: 16px;
+        }
+        input::-ms-input-placeholder {
+          font-size: 16px;
+        }
+        input::placeholder {
+          font-size: 16px;
+        }
+      }
+    }
+   .left-box div {
+      margin: 78px auto 0;
+      h1{
+        font-size: 42px;
+      }
+      p{
+        font-size: 15px;
+        line-height: 25px;
+      }
+  }
+  }
+  .footer {
+    width: 90%;
+    p{ text-align: center;}
+    .social-icons a {
+      width: 25px;
+      height: 25px;
+      i {
+        font-size: 13px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 881px){
+
+  .box{
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding-top: 50px;
+  }
+  .form-div{
+    width: 90%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin-bottom: 10px;
+    .left-box{
+      border: none;
+    }
+    .right-box{
+      border-left: 1px solid lightgray;
+    }  
+  }
+  .footer {
+    width: 90%!important;
+  }
+}
