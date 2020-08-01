@@ -1,11 +1,16 @@
 import { LOCALES } from  '../constants';
  export default {
      [LOCALES.ENGLISH]: {
+         //navbar
         'home': 'Home',
-        'ourTables': 'Our Tables',
+        'products': 'Products',
+        'wood': 'Wood',
         'colours' : 'Colours',
+        "finishing-coatings" : 'Finishing Coatings',
+        'feet': 'Feet',
         'contactUs' : 'Contact Us',
-        'header' : 'Welcome to React',
+        //header
+        'header' : 'Epoxy Sector',
         'header-podnaslov': ' english sub title',
         'whatWeDo': 'What we do',
         'table1' : 'Table one',

@@ -2,12 +2,17 @@ import { LOCALES } from '../constants';
 
 export default {
     [LOCALES.MACEDONIAN]: {
+        //navbar
         'edit-file': 'Преработете {file}  и зачувајте го лоадирање.',
         'home': 'Дома',
-        'ourTables': 'Нашите Маси',
+        'products': 'Продукти',
+        'wood': 'Дрво',
         'colours' : 'Бои',
+        "finishing-coatings" : 'Завршни премази',
+        'feet': 'Ногарки',
         'contactUs' : 'Контакт',
-        'header': 'Добродојдовте во Риект',
+        //header
+        'header': 'Епокси Сектор',
         'header-podnaslov': ' македонски под наслов',
         'whatWeDo': 'Што Ние Работиме',
         'table1' : 'Маса еден',

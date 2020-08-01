@@ -27,7 +27,7 @@
   z-index: 1;
   .overlay {
     height: 100%;
-    background-color: rgba(211, 211, 211,0.9);
+    background-color: black;
     @extend %flex-center;
     position: relative;
   .carouselImg{

@@ -12,6 +12,7 @@ import {
   NavItem,
   NavLink
 } from 'reactstrap';
+import Products from './Products';
 
 const NavbarMenu = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,9 +44,9 @@ const NavbarMenu = (props) => {
   
   return (
     <div>
-      <Navbar color="light" light expand="md" >
+      <Navbar color="light" light expand="md"style={{paddingTop:"0"}}>
         <Container >
-  <NavbarBrand tag={Link} to="/"><img src={Logo2} alt="" style={{width:"100px"}}/></NavbarBrand>
+  <NavbarBrand tag={Link} to="/"><img src={Logo2} alt="" style={{width:"139px"}}/></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
       
@@ -56,14 +57,9 @@ const NavbarMenu = (props) => {
                >{translate('home')}</NavLink>
             </NavItem>
             <NavItem>
-              < NavLink id='b' tag={Link}  style={aHrefStyle} to="/our-tables" 
-                onClick={() => { startChangeVis('b')}} className={acn2}
-              >{translate('ourTables')}</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink id='c' tag={Link} style={aHrefStyle} to="/colours"
-                onClick={() => { startChangeVis('c')}} className={acn3}
-  >{translate('colours')}</NavLink>
+              < Products id='b'  style={aHrefStyle} 
+                onClick={() => { startChangeVis('b')}} active={acn2}
+              />
             </NavItem>
             <NavItem>
               <NavLink tag={Link} style={aHrefStyle} to='/gallery'
