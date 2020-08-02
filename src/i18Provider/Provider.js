@@ -4,7 +4,7 @@ import { IntlProvider } from 'react-intl';
 import { LOCALES } from './constants';
 import messages from './messages';
 
-const Provider = ({ children, locale }) => (
+const Provider = ({ children, locale= LOCALES.ENGLISH}) => (
    <IntlProvider 
     textComponent={Fragment}
     locale={locale}
@@ -26,7 +26,7 @@ Provider.propTypes = {
 };
 
 Provider.defaultProps = {
-    locale: LOCALES.ENGLISH
+    locale: LOCALES.MACEDONIAN
 }
   
   export default Provider;
