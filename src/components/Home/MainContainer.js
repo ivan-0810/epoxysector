@@ -19,7 +19,7 @@ const MainContainer = () => {
       </div>
       <div className="img-txt">
         <div className="txt-box">
-          <TextDiv h3={['table2']} text={['textTableTwo']} />
+          <TextDiv h3={['table2']}  />
         </div>
         <div className="img-box" >
           <div className="img"style={{
@@ -38,7 +38,7 @@ const MainContainer = () => {
         }}></div>
         </div>
         <div className="txt-box">
-          <TextDiv h3={['table3']} text={['textTableThree']} />
+          <TextDiv h3={['table3']}  />
         </div>
       </div>
     </div>

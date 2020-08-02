@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './navbar.scss';
+import './dropdown.scss';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 import translate from '../../i18Provider/translate'
 

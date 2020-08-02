@@ -11,14 +11,14 @@ import { LOCALES } from  '../constants';
         'contactUs' : 'Contact Us',
         //header
         'header' : 'Epoxy Sector',
-        'header-podnaslov': ' english sub title',
+        'header-podnaslov': 'Unique pieces of art that will enrich your space',
         'whatWeDo': 'What we do',
-        'table1' : 'Table one',
-        'table2' : 'Table two',
-        'table3' : 'Table three',
-        'textTableOne': 'Need an experienced developer to setup a search option that will search through all pages on site and provide relevant and well formatted search results. Also should have statistics showing search criteria and results.',
-        'textTableTwo' : 'Need an experienced developer to setup a search option that will search through all pages on site and provide relevant and well formatted search results. Also should have statistics showing search criteria and results.',
-        'textTableThree' : 'Need an experienced developer to setup a search option that will search through all pages on site and provide relevant and well formatted search results. Also should have statistics showing search criteria and results.',
+        'table1' : 'unique pieces',
+        'table2' : 'Perseverance',
+        'table3' : 'Customizable to your requirements',
+        'textTableOne': 'Starting from the fact that each piece of wood differs in its color, texture, number and shape of joints, knots and cracks, each of our products is unique',
+        'textTableTwo' : '',
+        'textTableThree' : '',
         //Gallery//
         'gallery': 'Gallery',//navbar
         'galleryH1' : 'Gallery',

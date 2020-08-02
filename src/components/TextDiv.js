@@ -1,7 +1,8 @@
 import React, { Fragment } from 'react';
 import translate from '../i18Provider/translate'
 
-const TextDiv = ({text,h1,h3}) => {    
+const TextDiv = ({text,h1,h3}) => {
+    console.log(text);    
     return (
         <Fragment >
            {h3 && <h3>{translate(`${h3}`)}</h3>} 
